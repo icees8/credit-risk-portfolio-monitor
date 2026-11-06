@@ -1,0 +1,44 @@
+{
+  "ACC200945": {
+    "account_id": "ACC200945",
+    "decision": "Confirmed Anomaly",
+    "notes": "Severe DPD spike verified with loan file.",
+    "reviewer": "Risk Analyst 01",
+    "updated_at": "2026-11-06 20:34:29"
+  },
+  "ACC200021": {
+    "account_id": "ACC200021",
+    "decision": "Confirmed Anomaly",
+    "notes": "Test verification",
+    "reviewer": "Risk Analyst 01",
+    "updated_at": "2026-11-07 00:12:48"
+  },
+  "ACC213150": {
+    "account_id": "ACC213150",
+    "decision": "Dismiss (False Positive)",
+    "notes": "",
+    "reviewer": "Risk Analyst 01",
+    "updated_at": "2026-11-06 22:22:24"
+  },
+  "ACC203004": {
+    "account_id": "ACC203004",
+    "decision": "Confirmed Anomaly",
+    "notes": "Risk signals are justified",
+    "reviewer": "Risk Analyst - Rohit Kumar",
+    "updated_at": "2026-11-06 23:58:39"
+  },
+  "ACC211006": {
+    "account_id": "ACC211006",
+    "decision": "Confirmed Anomaly",
+    "notes": "High installment miss rate",
+    "reviewer": "Risk Analyst - Rohit Kumar",
+    "updated_at": "2026-11-07 00:44:35"
+  },
+  "ACC202884": {
+    "account_id": "ACC202884",
+    "decision": "Confirmed Anomaly",
+    "notes": "DTI is too high",
+    "reviewer": "Risk Analyst - Rohit Kumar",
+    "updated_at": "2026-11-07 00:53:53"
+  }
+}

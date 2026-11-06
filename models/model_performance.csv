@@ -1,0 +1,4 @@
+model,train_auc,train_ks,train_gini,test_auc,test_ks,test_gini
+logistic_regression,0.7009,0.3014,0.4019,0.6565,0.2308,0.3131
+random_forest,0.915,0.6753,0.8301,0.6609,0.2342,0.3217
+lightgbm,0.9074,0.6532,0.8148,0.6453,0.2114,0.2906

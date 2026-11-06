@@ -1,0 +1,28 @@
+{
+  "model_in_production": "random_forest_pipeline",
+  "monitoring_frequency": "Monthly",
+  "stability_thresholds": {
+    "psi_green": "< 0.10 (No action required; distribution stable)",
+    "psi_yellow": "0.10 to 0.25 (Moderate drift; increase monitoring frequency, review origination mix)",
+    "psi_red": ">= 0.25 (Significant drift; trigger model re-estimation or pause automated cut-offs)"
+  },
+  "performance_triggers": {
+    "auc_floor": "Test AUC must remain >= 0.65; alert if rolling 3-month AUC drops by > 0.05",
+    "ks_floor": "KS statistic must remain >= 0.20",
+    "calibration_error": "Expected-to-Actual (E/A) default ratio by score decile must stay between 0.80 and 1.25"
+  },
+  "feature_drift_csi_targets": [
+    "annual_income",
+    "repayment_max_dpd",
+    "repayment_missed_rate",
+    "dti_ratio",
+    "bureau_written_off_lines",
+    "bureau_utilization"
+  ],
+  "simulated_test_psi": 0.025,
+  "operational_alerts": [
+    "Pipeline input missingness spikes (>5% above training baseline)",
+    "Daily API latency exceeding 250ms",
+    "Approval rate deviations > 3% from policy benchmark"
+  ]
+}
